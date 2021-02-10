@@ -1,0 +1,19 @@
+{
+  "file_name": "csv/task/input_data/csv/customers.csv",
+  "transaction": {
+    "date": "16/03/2020",
+    "customer": {
+      "id": "ID6651",
+      "name": "Pauline J Buxton",
+      "address": "1927  Pinnickinick Street",
+      "phone": "360-727-9275"
+    },
+    "vehicle": [
+      {
+        "id": "V786",
+        "make": "Nissan",
+        "vin_number": "2GTEK13M481177784"
+      }
+    ]
+  }
+}
