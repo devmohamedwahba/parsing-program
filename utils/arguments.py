@@ -8,6 +8,7 @@ logging.basicConfig(format='%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d
                     level=logging.DEBUG,
                     datefmt='%d-%m-%Y %H:%M:%S',
                     filename='logs.txt')
+
 logger = logging.getLogger(__name__)
 
 
@@ -50,19 +51,3 @@ class Arguments:
             logger.info(f'{e}')
         else:
             return second_arg
-
-    # @classmethod
-    # def get_arguments(cls):
-    #     """
-    #     helper function that get all argument
-    #     :return: list of argument
-    #     """
-    #     return sys.argv
-    #
-    # @classmethod
-    # def get_number_of_arguments(cls):
-    #     """
-    #     helper function that return count of arguments
-    #     :return: number of arguments
-    #     """
-    #     return len(sys.argv)

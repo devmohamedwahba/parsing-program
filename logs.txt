@@ -67,3 +67,10 @@
 11-02-2021 11:43:23 INFO     [arguments.py:50] list index out of range
 11-02-2021 11:43:38 INFO     [arguments.py:50] list index out of range
 11-02-2021 11:43:49 INFO     [arguments.py:50] list index out of range
+11-02-2021 11:51:11 INFO     [arguments.py:50] list index out of range
+11-02-2021 12:51:35 INFO     [arguments.py:50] list index out of range
+11-02-2021 12:51:48 INFO     [arguments.py:50] list index out of range
+11-02-2021 12:52:32 INFO     [arguments.py:50] list index out of range
+11-02-2021 12:53:01 INFO     [arguments.py:50] list index out of range
+11-02-2021 13:02:27 INFO     [arguments.py:51] list index out of range
+11-02-2021 13:05:01 INFO     [arguments.py:51] list index out of range
