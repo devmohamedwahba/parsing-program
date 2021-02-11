@@ -1,7 +1,7 @@
 from utils.arguments import Arguments
 
 file_format = Arguments.get_format_of_file()
-customer_file_name = Arguments.get_customer_file_name()
+customer_file_name = Arguments.get_first_file_name()
 
 
 class TransactionExport:

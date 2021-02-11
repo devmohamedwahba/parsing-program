@@ -1,5 +1,5 @@
 class Vehicle:
-    def __init__(self, _id, make, vin_number, owner_id):
+    def __init__(self, _id, make, vin_number, owner_id=None):
         self.id = _id
         self.make = make
         self.vin_number = vin_number
