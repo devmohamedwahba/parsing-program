@@ -22,7 +22,8 @@ class Parser(ABC):
     def extract_vehicle_data(self):
         pass
 
-    def generate_json_file_structure(self, customer) -> Dict:
+    @classmethod
+    def generate_json_file_structure(cls, customer) -> Dict:
         """
         :param customer: Take customer object
         :return: dictionary of Transaction Export model
@@ -30,7 +31,8 @@ class Parser(ABC):
         transaction = Transaction(customer)
         return TransactionExport(transaction).to_export()
 
-    def save_data_as_json(self, result) -> None:
+    @classmethod
+    def save_data_as_json(cls, result) -> None:
         """
         :param result: Dictionary that want to convert to json
         """

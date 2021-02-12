@@ -1,10 +1,12 @@
 """
-main app concern is to get some functionality to deal with argument that enter python program
+main app concern is to get some functionality to deal with argument
+that enter python program
 """
 import sys
 import logging
 
-logging.basicConfig(format='%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
+logging.basicConfig(
+                    format='%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
                     level=logging.DEBUG,
                     datefmt='%d-%m-%Y %H:%M:%S',
                     filename='logs.txt')
@@ -33,11 +35,11 @@ class Arguments:
            :return: name of customer file
            """
         try:
-            firs_arg = sys.argv[2]
+            first_arg = sys.argv[2]
         except Exception as e:
             logger.info(f'{e}')
         else:
-            return firs_arg
+            return first_arg
 
     @classmethod
     def get_second_file_name(cls):

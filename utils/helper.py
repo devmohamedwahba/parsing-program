@@ -12,7 +12,10 @@ def get_data_from_csv_file(file_name) -> List[List]:
     :return: list of lists that can take from csv file
     """
     with open(file_name, 'r') as file:
-        lines = [[element[1:-1] for element in line.strip().split(',')] for line in file.readlines()]
+        lines = [
+            [element[1:-1] for element in line.strip().split(',')]
+            for line in file.readlines()
+        ]
     return lines[1:]
 
 

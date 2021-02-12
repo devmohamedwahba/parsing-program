@@ -5,7 +5,6 @@ from typing import Dict, List
 from .parser import Parser
 from utils.helper import read_xml_file
 from resource.soup import ParsedItem
-from models.vehicle import Vehicle
 
 
 class XmlParser(Parser):
