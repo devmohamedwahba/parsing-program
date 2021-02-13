@@ -1,3 +1,8 @@
 12-02-2021 20:46:46 ERROR    [parser.py:52] error in parse vehicle file
 12-02-2021 20:49:26 ERROR    [parser.py:52] error in parse customer from xml
 13-02-2021 14:28:11 ERROR    [parser.py:52] error in parse customer file
+13-02-2021 14:32:48 INFO     [arguments.py:27] list index out of range
+13-02-2021 14:32:48 ERROR    [parser.py:54] 'NotImplementedType' object is not callable
+13-02-2021 14:32:56 INFO     [arguments.py:27] list index out of range
+13-02-2021 14:32:56 ERROR    [parser.py:54] 'NotImplementedType' object is not callable
+13-02-2021 14:47:08 ERROR    [parser.py:52] error in parse customer from xml
