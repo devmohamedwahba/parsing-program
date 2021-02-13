@@ -14,7 +14,6 @@ class CsvParser(Parser):
     def extract_customer_data(self) -> List:
         try:
             customer_data = get_data_from_csv_file(self.customer_file)
-
             customers = [
                 {
                     "_id": line[0],
