@@ -3,7 +3,8 @@ Python Application to parse data with formats of XML &amp; CSV
 # Overview
 The Parser App Is Small App that can parse from format like csv and xml to json format 
 also it can be extended to add more functionality to enhance that program by adding more type
-
+# Requirements
+* Python 3.8.5 
 # Installation
 - virtualenv venv
 - source venv/bin/activate
